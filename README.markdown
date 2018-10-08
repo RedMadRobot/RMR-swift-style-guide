@@ -414,11 +414,12 @@ extension Circle: CustomStringConvertible {
 When the method signature is too long, parameters should be moved to a new line:
 ```swift 
 override func register(
-    withСardNumber cardNumber: String,
-    completion completionBlock: @escaping AuthService.RegisterWithCardNumberCompletionBlock,
-    failure failureBlock: @escaping Service.ServiceFailureBlock) -> WebTransportOperation {
-    // reticulate code goes here (no white space)
-}
+        withСardNumber cardNumber: String,
+        completion completionBlock: @escaping AuthService.RegisterWithCardNumberCompletionBlock,
+        failure failureBlock: @escaping Service.ServiceFailureBlock)
+        -> WebTransportOperation {
+            // reticulate code goes here (no white space)
+    }
 ```
 
 The example above demonstrates the following style guidelines:
@@ -507,12 +508,13 @@ For functions add line breaks at each argument if it exceeds page guide:
 
 ```swift
 func reticulateSplines(
-    spline: [Double], 
-    adjustmentFactor: Double,
-    translateConstant: Int, 
-    comment: String) -> Bool {
-  // reticulate code goes here (no white space)
-}
+        spline: [Double],
+        adjustmentFactor: Double,
+        translateConstant: Int,
+        comment: String)
+        -> Bool {
+            // reticulate code goes here (no white space)
+    }
 ```
 
 The same rule applied for function calls.
