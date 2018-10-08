@@ -417,8 +417,7 @@ override func register(
     withСardNumber cardNumber: String,
     completion completionBlock: @escaping AuthService.RegisterWithCardNumberCompletionBlock,
     failure failureBlock: @escaping Service.ServiceFailureBlock) -> WebTransportOperation {
-
-    // reticulate code goes here
+    // reticulate code goes here (no white space)
 }
 ```
 
@@ -500,7 +499,7 @@ Keep short function declarations on one line including the opening brace:
 
 ```swift
 func reticulateSplines(spline: [Double]) -> Bool {
-  // reticulate code goes here
+  // reticulate code goes here (no white space)
 }
 ```
 
@@ -512,7 +511,7 @@ func reticulateSplines(
     adjustmentFactor: Double,
     translateConstant: Int, 
     comment: String) -> Bool {
-  // reticulate code goes here
+  // reticulate code goes here (no white space)
 }
 ```
 
