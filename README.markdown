@@ -215,6 +215,8 @@ The next sequence nice to follow:
 
 // MARK: - Public Properties
 
+// MARK: - Internal Properties
+
 // MARK: - Private Properties
 
 // MARK: - Initializers
@@ -222,6 +224,8 @@ The next sequence nice to follow:
 // MARK: - UIViewController(*)
 
 // MARK: - Public methods
+
+// MARK: - Internal methods
 
 // MARK: - IBAction
 
