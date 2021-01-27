@@ -211,9 +211,9 @@ The next sequence nice to follow:
 
 // MARK: - Constants
 
-// MARK: - IBOutlet
-
 // MARK: - Public Properties
+
+// MARK: - IBOutlet
 
 // MARK: - Private Properties
 
